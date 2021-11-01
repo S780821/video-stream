@@ -1,5 +1,5 @@
 <p align="center"><a href="https://t.me/VeezVideoBot">
-    <img src="https://github.com/S780821/video-stream/raw/main/driver/xmartylogo.png"></a></p>
+    <img src="https://telegra.ph/file/51452e860abb8e7ad6890.jpg"></a></p>
 <p align="center">
     <br><b>Video Stream is a telegram bot project that's allow you to play video on telegram group video chat</b><br>
 </p>
