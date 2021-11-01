@@ -1,4 +1,4 @@
-# Copyright (C) 2021 By Veez Music-Project
+# Copyright (C) 2021 By Xmarty Music-Project
 # Commit Start Date 20/10/2021
 # Finished On 28/10/2021
 
@@ -56,10 +56,10 @@ async def play(_, m: Message):
         [
             [
                 InlineKeyboardButton(
-                    text="✨ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
+                    text="✨ ɢʀᴏᴜᴘ", url=f"https://t.me/Xmarty_support"
                 ),
                 InlineKeyboardButton(
-                    text="🌻 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    text="🌻 ᴄʜɪᴛᴄʜᴀᴛ ɢʀᴏᴜᴘ", url=f"https://t.me/Welcomefriendclub"
                 ),
             ]
         ]
@@ -204,10 +204,10 @@ async def stream(_, m: Message):
         [
             [
                 InlineKeyboardButton(
-                    text="✨ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
+                    text="✨ ɢʀᴏᴜᴘ", url=f"https://t.me/xmarty_support"
                 ),
                 InlineKeyboardButton(
-                    text="🌻 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    text="🌻ᴄʜɪᴛᴄʜᴀᴛ ɢʀᴏᴜᴘ", url=f"https://t.me/welcomefriendclub"
                 ),
             ]
         ]
