@@ -8,7 +8,7 @@ import re
 from config import BOT_USERNAME, GROUP_SUPPORT, IMG_1, IMG_2, UPDATES_CHANNEL
 from driver.filters import command, other_filters
 from driver.queues import QUEUE, add_to_queue
-from driver.veez import call_py
+from driver.xmarty import call_py
 from pyrogram import Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from pytgcalls import StreamType
