@@ -1,4 +1,4 @@
-<p align="center"><a href="https://t.me/VeezVideoBot">
+<p align="center"><a href="https://t.me/XMARTY_VC_PLAYER_BOT">
     <img src="https://telegra.ph/file/51452e860abb8e7ad6890.jpg"></a></p>
 <p align="center">
     <br><b>Video Stream is a telegram bot project that's allow you to play video on telegram group video chat</b><br>
@@ -19,7 +19,7 @@
 
 ## 🧪 Get `SESSION_NAME` from below:
 
-[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@S780821/StringSession#main.py) ``Pyrogram``
+[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@S780821/PyrogramSession) ``Pyrogram``
 
 ## ✨ Features
 - Music & Video stream support
