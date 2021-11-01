@@ -14,9 +14,6 @@
     <a href="https://github.com/S780821/video-stream/network/members"> <img src="https://img.shields.io/github/stars/S780821/video-stream?color=red&logo=github&logoColor=blue&style=flat-square" /></a>  
 </p>
 
-## 📊 Stats
-[![CodeFactor](https://www.codefactor.io/repository/github/S780821/video-stream/badge)](https://www.codefactor.io/repository/github/S780821/video-stream)
-
 ## 🧪 Get `SESSION_NAME` from below:
 
 [![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@S780821/PyrogramSession) ``Pyrogram``
