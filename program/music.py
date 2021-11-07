@@ -223,12 +223,12 @@ async def stream(_, m: Message):
         regex = r"^(https?\:\/\/)?(www\.youtube\.com|youtu\.?be)\/.+"
         match = re.match(regex, link)
         if match:
-            xmarty, livelink = await ytdl(link)
+            veez, livelink = await ytdl(link)
         else:
             livelink = link
-            xmarty = 1
+            veez = 1
 
-        if xmarty == 0:
+        if veez == 0:
             await suhu.edit(f"❌ yt-dl issues detected\n\n» `{ytlink}`")
         else:
             if chat_id in QUEUE:
