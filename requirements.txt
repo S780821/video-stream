@@ -7,10 +7,13 @@ git+https://github.com/yt-dlp/yt-dlp@master
 youtube-search-python==1.4.9
 youtube-search
 httpx==0.13.3
-python-dotenv
+python-dotenv==0.19.2
 aiofiles
-aiohttp
+aiohttp[speedups]
 requests
 psutil
 future
 wget
+youtube-dl==2021.6.6
+bs4==0.0.1
+beautifulsoup4==4.10.0
