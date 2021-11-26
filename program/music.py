@@ -59,7 +59,7 @@ async def play(_, m: Message):
                     text="✨ ɢʀᴏᴜᴘ", url=f"https://t.me/Xmarty_support"
                 ),
                 InlineKeyboardButton(
-                    text="🌻 ᴏғғɪᴄɪᴡʟ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/xmarty_updates"
+                    text="🌻 ᴏғғɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/xmarty_updates"
                 ),
             ]
         ]
