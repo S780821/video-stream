@@ -44,7 +44,7 @@ async def ytsearch(_, message: Message):
             text += f"👀 **Views:** `{results[i]['views']}`\n"
             text += f"📣 **Channel:** {results[i]['channel']}\n"
             text += f"🔗: https://www.youtube.com{results[i]['url_suffix']}\n\n"
-            text += f" **sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ:** {https://t.me/Xmarty_Support"
+            text += f" **sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ:** {https://t.me/Xmarty_Support"}
             i += 1
         await m.edit(text, reply_markup=keyboard, disable_web_page_preview=True)
     except Exception as e:
