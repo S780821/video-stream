@@ -59,7 +59,7 @@ async def play(_, m: Message):
                     text="✨ ɢʀᴏᴜᴘ", url=f"https://t.me/Xmarty_support"
                 ),
                 InlineKeyboardButton(
-                    text="🌻 ᴄʜɪᴛᴄʜᴀᴛ ɢʀᴏᴜᴘ", url=f"https://t.me/Welcomefriendclub"
+                    text="🌻 ᴏғғɪᴄɪᴡʟ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/xmarty_updates"
                 ),
             ]
         ]
@@ -207,7 +207,7 @@ async def stream(_, m: Message):
                     text="✨ ɢʀᴏᴜᴘ", url=f"https://t.me/xmarty_support"
                 ),
                 InlineKeyboardButton(
-                    text="🌻ᴄʜɪᴛᴄʜᴀᴛ ɢʀᴏᴜᴘ", url=f"https://t.me/welcomefriendclub"
+                    text="🌻ᴏғғɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Xmarty_updates"
                 ),
             ]
         ]
