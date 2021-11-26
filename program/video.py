@@ -65,7 +65,7 @@ async def vplay(client, m: Message):
                     text="✨ ɢʀᴏᴜᴘ", url=f"https://t.me/Xmarty_Support"
                 ),
                 InlineKeyboardButton(
-                    text="🌻 ᴄʜɪᴛᴄʜᴀᴛ ɢʀᴏᴜᴘ", url=f"https://t.me/Welcomefriendclub"
+                    text="🌻 ᴏғғɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/xmarty_updates"
                 ),
             ]
         ]
@@ -225,7 +225,7 @@ async def vstream(client, m: Message):
                     text="✨ ɢʀᴏᴜᴘ", url=f"https://t.me/Xmarty_support"
                 ),
                 InlineKeyboardButton(
-                    text="ᴄʜɪᴛᴄʜᴀᴛ ɢʀᴏᴜᴘ", url=f"https://t.me/welcomefriendclub"
+                    text="ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/xmarty_updates"
                 ),
             ]
         ]
