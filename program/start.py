@@ -64,26 +64,26 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Add me to your Group ➕",
+                        "乂ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ乂",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("乂ʙᴀsɪᴄ ɢᴜɪᴅᴇ乂", callback_data="cbhowtouse")],
                 [
-                    InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("❤️ Donate", url=f"https://t.me/Xmartperson"),
+                    InlineKeyboardButton("乂ᴄᴏᴍᴍᴀɴᴅs乂", callback_data="cbcmds"),
+                    InlineKeyboardButton("乂ᴄʀᴇᴀᴛᴏʀ乂", url=f"https://t.me/Xmartperson"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/Rockerz_support"
+                        "乂ʙᴏᴛ ɢʀᴏᴜᴘ乂", url=f"https://t.me/Rockerz_support"
                     ),
                     InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/Rockerz_updates"
+                        "乂ʙᴏᴛ ᴄʜᴀɴɴᴇʟ乂", url=f"https://t.me/Rockerz_updates"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 Source Code", url="https://github.com/S780821/video-stream"
+                        "乂sɪɴɢɪɴɢ sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Singing_music_Idol"
                     )
                 ],
             ]
@@ -103,9 +103,9 @@ async def alive(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("✨ Group", url=f"https://t.me/Rockerz_updates"),
+                InlineKeyboardButton("乂ʙᴏᴛ ɢʀᴏᴜᴘ乂", url=f"https://t.me/Rockerz_updates"),
                 InlineKeyboardButton(
-                    "Official Channel", url=f"https://t.me/Rockerz_Updates"
+                    "乂ʙᴏᴛ ᴄʜᴀɴɴᴇʟ乂", url=f"https://t.me/Rockerz_Updates"
                 ),
             ]
         ]
@@ -123,9 +123,9 @@ async def alive(client: Client, message: Message):
 @Client.on_message(command(["ping", f"ping@{BOT_USERNAME}"]) & ~filters.edited)
 async def ping_pong(client: Client, message: Message):
     start = time()
-    m_reply = await message.reply_text("pinging...")
+    m_reply = await message.reply_text("ᴘɪɴɢɪɴɢ...")
     delta_ping = time() - start
-    await m_reply.edit_text("🏓 `PONG!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
+    await m_reply.edit_text("🏓 `ᴘᴏɴɢ!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
 
 
 @Client.on_message(command(["uptime", f"uptime@{BOT_USERNAME}"]) & ~filters.edited)
