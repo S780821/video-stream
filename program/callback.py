@@ -39,7 +39,7 @@ async def cbstart(_, query: CallbackQuery):
                         "👥 Official Group", url=f"https://t.me/Rockerz_support"
                     ),
                     InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/Rockerz_update}"
+                        "📣 Official Channel", url=f"https://t.me/Rockerz_updates"
                     ),
                 ],
                 [
